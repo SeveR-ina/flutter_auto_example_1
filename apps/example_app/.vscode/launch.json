@@ -1,0 +1,17 @@
+{
+   "version": "0.0.1",
+   "configurations": [
+      {
+         "name": "LOCAL TEST [Debug]",
+         "type": "dart",
+         "request": "launch",
+         "program": "${workspaceFolder}/integration_test/example_app_login_test.dart",
+         "args": [
+            "--flavor",
+            "development",
+            "--dart-define-from-file",
+            "env.json"
+         ]
+      }
+   ]
+}
